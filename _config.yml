@@ -68,21 +68,6 @@ content:
           this project has opened our eyes on how to blockchain works and how important this could be to future digital arts, we are very happy to explore these possibilities and be part of them
           we also had someone buy an NFT from us on our first hour of launch :) YAY
 
-        title: Agario Clone (Not Finished)
-        link: github.com/student1043/Agario-Clone
-        # link_text: Project Website
-        additional_links:
-          - title:  student1043/Agario-Clone
-            icon: fab fa-github
-            url: github.com/student1043/Agario-Clone
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is an almost functioning Agario Clone, made with P5.js and styled with a bit of CSS
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way for learning <mark>JS</mark> We had a tight schedule so we couldn't complete it in time, but we learned about game physics and controls in JS!
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
