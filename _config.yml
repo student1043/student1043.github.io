@@ -67,10 +67,10 @@ content:
           this project has opened our eyes on how to blockchain works and how important this could be to future digital arts, we are very happy to explore these possibilities and be part of them
           we also had someone buy an NFT from us on our first hour of launch :) YAY
 
-  - title: Agario Clone
     layout: list # Type of content section (list/text)
     content:
-      - layout: left-middle
+      - layout: top-middle
+        title: Agario Clone
         link: github.com/student1043/Agario-Clone
         # link_text: Project Website
         additional_links:
