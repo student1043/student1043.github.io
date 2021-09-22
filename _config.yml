@@ -48,7 +48,7 @@ content:
   - title: DApp For Minting NFT # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: middle
         link: github.com/Inoublii/Dapp-BettyCoder
         # link_text: Project Website
         additional_links:
