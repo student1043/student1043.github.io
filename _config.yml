@@ -49,6 +49,25 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: DApp For Minting NFT
+        link: github.com/Inoublii/Dapp-BettyCoder
+        # link_text: Project Website
+        additional_links:
+          - title: Inoublii/Dapp-BettyCoder
+            icon: fab fa-github
+            url: github.com/Inoublii/Dapp-BettyCoder
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This project was done for our final year portfolio presentation, it is consisted of an NFT Minter + Front-end platform to buy the NFT
+        description: | # this will include new lines to allow paragraphs
+          We started by exploring and figuring out which blockchain we wanted it to be on, we found that the <mark>Polygon Network</mark> is pretty fast and work on Ethereum and the fees were very low
+          and it's adopted to a lot of NFT marketplaces, then we had to figure out which language to use to make our contracts and we found that <mark>Solidity</mark> was the primary language for making
+          smart contracts on the Ethereum blockchain. For testing, compiling and migration we used <mark>Truffle JS</mark> and <mark>React</mark> for our front-end platform.
+          this project has opened our eyes on how to blockchain works and how important this could be to future digital arts, we are very happy to explore these possibilities and be part of them
+          we also had someone buy an NFT from us on our first hour of launch :) YAY
+
         title: Agario Clone (Not Finished)
         link: github.com/student1043/Agario-Clone
         # link_text: Project Website
@@ -95,7 +114,7 @@ content:
 
       - layout: left
         title: Holberton School
-        caption: September 2019 - Now
+        caption: September 2019 - September 2021
         sub_title: Full Stack Web Developer
         quote: >
           University specialized on project based education
