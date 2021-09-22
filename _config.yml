@@ -70,7 +70,7 @@ content:
   - title: Agario Clone
     layout: list # Type of content section (list/text)
     content:
-      - layout: bottom-middle
+      - layout: middle
         link: github.com/student1043/Agario-Clone
         # link_text: Project Website
         additional_links:
