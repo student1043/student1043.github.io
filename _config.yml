@@ -1,0 +1,131 @@
+# Site
+repository: student1043/student1043.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Yassin Bahri
+title: Junior Full Stack Developer
+email: 1043@holbertonschool.com
+website: https://student1043.github.io
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+twitter_username: none
+github_username:  student1043
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: student1043
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Yassin and I'm a Junior Full Stack Developer. I have worked on many school projects in different programming languages such a C, Python, JS. I am always interested in learning new languages and exploring all new technologies!
+
+  I am most interested in: <mark>Python</mark> and <mark>Drinking Coffee</mark>
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Agario Clone (Not Finished)
+        link: github.com/student1043/Agario-Clone
+        # link_text: Project Website
+        additional_links:
+          - title:  student1043/Agario-Clone
+            icon: fab fa-github
+            url: github.com/student1043/Agario-Clone
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This is an almost functioning Agario Clone, made with P5.js and styled with a bit of CSS
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a way for learning <mark>JS</mark> We had a tight schedule so we couldn't complete it in time, but we learned about game physics and controls in JS!
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Freelancing
+        link: freelancer.com
+        # link_text: freelancer.com
+        sub_title: Full Stack Developer
+        caption: September 2020 - Present
+        quote: >
+          Have been doing some freelancing gigs here and there while staying focused on school projects
+        description: | # this will include new lines to allow paragraphs
+            I have done some freelancing work on freelancer.com and also from some connections, developed a few wordpress websites and debugged prestashop websites.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: GoMyCode
+        caption: August 2016 - September 2016
+        sub_title: C# and Unity Game Developement
+        quote: >
+          Bootcamp for learning game developement in C# and Unity
+        description: | # this will include new lines to allow paragraphs
+          This was the first time I got in the programming world truely, it was a great experience, a 3 week bootcamp with teachers from different companies and schools that are experts in the game developement field!
+
+          In the end of that 3 weeks period each of us had to develop a simple game and represent it to judges and explain the mechanics of the game, I have developed a clicker game where you can mine and purchase mining gear
+          to increase your profit, it was pretty simple with simple mechanics but it was quite challenging at that time!
+
+      - layout: left
+        title: Holberton School
+        caption: September 2019 - Now
+        sub_title: Full Stack Web Developer
+        quote: >
+          University specialized on project based education
+        description: | # this will include new lines to allow paragraphs
+          Starting as the first student of Holberton School in Tunisia, I was trying to find a suitable school for me to start in, I didn't like the old school universities in Tunisia.
+
+          All of them were focused on giving the same outcome for students, making the next generation workers that don't have any ambition to experiment and try new things, the pace in Holberton
+          School is kind of overwhelming in the beginning but overtime I have learned to organize the way I work and make it more efficient, the school is all project based and you have to learn
+          new technologies by yourself and with your peers!
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in software engineering some of my other interests and hobbies are:
+      - Gaming
+      - Making Coffee
+      - Fishing
+
+
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
