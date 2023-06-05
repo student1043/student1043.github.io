@@ -101,7 +101,7 @@ content:
               - optimized API fetching on the user side to an effective rate of 80%
               - data migration of the whole database and upgrading the backend
               - implementing payment reports for each booking that deduct all the fees and the guides' pay
-    content:
+             
       - layout: left
         title: Freelancing
         link: freelancer.com
