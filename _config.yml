@@ -40,9 +40,8 @@ linkedin_username: student1043
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Yassin and I'm a Junior Full Stack Developer. I have worked on many school projects in different programming languages such a C, Python, JS. I am always interested in learning new languages and exploring all new technologies!
+  Hi, my name's Yassin and I'm a Junior Full Stack Developer. I have worked extensively on Django, Vue JS, Nuxt JS and PostgreSQL with over 1 year experience. These projects include working on payment systems and working on the core models of websites including a userbase of over 40 thousand users
 
-  I am most interested in: <mark>Python</mark> and <mark>Drinking Coffee</mark>
 
 content:
   - title: DApp For Minting NFT # Title for the section
@@ -89,6 +88,21 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Consulting 
+        link: Lokafy.com
+        # link_text: Lokafy.com
+        sub_title: Full Stack Developer
+        caption: May 2022 - Present
+        quote: >
+          worked on critical parts of the backend and frontend with Django and Vue JS.
+        description: | # this will include new lines to allow paragraphs
+            I have worked with Lokafy to optimize their website in may way including:
+              - fixing filtering functions for bookings, users, and other parts of the administration
+              - optimized API fetching on the user side to an effective rate of 80%
+              - data migration of the whole database and upgrading the backend
+              - implementing payment reports for each booking that deduct all the fees and the guides' pay
+    content:
+      - layout: left
         title: Freelancing
         link: freelancer.com
         # link_text: freelancer.com
@@ -126,14 +140,6 @@ content:
           All of them were focused on giving the same outcome for students, making the next generation workers that don't have any ambition to experiment and try new things, the pace in Holberton
           School is kind of overwhelming in the beginning but overtime I have learned to organize the way I work and make it more efficient, the school is all project based and you have to learn
           new technologies by yourself and with your peers!
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in software engineering some of my other interests and hobbies are:
-      - Gaming
-      - Making Coffee
-      - Fishing
 
 
 
