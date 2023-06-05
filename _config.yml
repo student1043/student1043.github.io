@@ -94,7 +94,7 @@ content:
         sub_title: Full Stack Developer
         caption: May 2022 - Present
         quote: >
-          worked on critical parts of the backend and frontend with Django and Vue JS.
+          worked on critical parts of the backend and frontend with Django, Vue JS and Nuxt JS
         description: | # this will include new lines to allow paragraphs
             I have worked with Lokafy to optimize their website in may way including:
               - fixing filtering functions for bookings, users, and other parts of the administration
